@@ -5,7 +5,7 @@ function App() {
       response: 'token',
     };
     const response = await window
-      .fetch("/api/test", {
+      .fetch("/.netlify/functions/test", {
         method: `POST`,
         body: JSON.stringify(reCaptchaData),
       })
