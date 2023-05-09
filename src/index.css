@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.container button {
+  background-color: #4681f4;
+  border: 0;
+  padding: 20px 30px;
+  color: white;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.success {
+  color: green;
+}
