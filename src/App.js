@@ -46,15 +46,6 @@ function App() {
     }
   }, [data]);
 
-  const testAPICall = async () => {
-    const response = await window
-      .fetch("/.netlify/functions/hello-world", {
-        method: `POST`,
-      })
-      .then((res) => res.json());
-    console.log("RESPONSE", response);
-  };
-
   return (
     <div className="wrapper">
       <div className="container">
